@@ -147,6 +147,7 @@ UpgradeTower(24.959, 18.375, 10000)
 SetTower("Unit 3", "Field Medic", 24.939, 13.073, 1171)
 UpgradeTower(24.959, 18.375, 13500)
 
+--
 AutoAirDrop(
     {
         {24.939, 13.073}, -- Mercenary Base coordinates
@@ -155,6 +156,7 @@ AutoAirDrop(
     },
     {1, 15.502, 1.125, 8.076, 137.034} -- Air-Drop target coordinates
 )
+--
 
 UpgradeTower(24.959, 18.375, 36000)
 UpgradeTower(-17.832, -7.772, 2500)
@@ -202,7 +204,9 @@ UpgradeTower(-12.641, -0.262, 2500)
 UpgradeTower(-12.641, -0.262, 2500)
 UpgradeTower(-12.641, -0.262, 18500)
 
+--
 AutoChainAPC({{-17.832, -7.772}, {-18.177, -4.749}, {-5.805, -3.322}})
+--
 
 UpgradeTower(-12.641, -0.262, 18500)
 UpgradeTower(-12.641, -0.262, 18500)
@@ -249,3 +253,4 @@ useAbility3("Hologram Tower", -12.486, 3.324, 20.264, 12.879, 12.200, 9.573, 192
 useAbility3("Hologram Tower", -10.449, -8.924, 20.264, 12.879, 13.815, 14.439, 2014)
 useAbility3("Hologram Tower", -10.449, -8.924, 20.264, 12.879, 19.641, 18.862, 2023)
 useAbility3("Hologram Tower", -12.486, 3.324, 20.264, 12.879, 14.716, 18.924, 2040)
+
