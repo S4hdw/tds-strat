@@ -48,6 +48,7 @@ PlaceTower("DJ Booth", 9.233,0.965,19.034, 1200)
 UpgradeTower(9.233, 19.034, 300)
 UpgradeTower(9.233, 19.034, 1250)
 UpgradeTower(9.233, 19.034, 3000)
+SetTower("Track", "Green", 9.233, 19.034, 90)
 --
 AutoChainDJ(
     {
@@ -55,7 +56,6 @@ AutoChainDJ(
     }
 )
 --
-SetTower("Track", "Green", 9.233, 19.034, 90)
 UpgradeTower(21.872, 24.097, 2292)
 UpgradeTower(18.808, 24.016, 2292)
 UpgradeTower(15.681, 24.016, 2292)
