@@ -15,6 +15,7 @@ TDS:Loadout("Scout", "Accelerator", "Mercenary Base", "Hacker", "Warlock")
 TDS:Mode("Frost")
 TDS:GameInfo("Simplicity", {
     HiddenEnemies = true,
+    ExplodingEnemies = true,
     Glass = true,
     Committed = true
 })
